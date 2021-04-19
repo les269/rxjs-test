@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<h1>Todo List Demo</h1>
+
+<div id="addTodoComponent" class="form-inline">
+	<input id="todoDataText" type="text" class="form-control" />
+	<button id="addTodoButton" class="btn btn-primary">Add</button>
+</div>
+
+<div id="todoListComponent">
+	<h2>Todos</h2>
+	<ul id="todoList">
+	</ul>
+</div>
+
+<div id="todoInfoComponent">
+	<div>Total: <span id="totalTodos"></span></div>
+	<div>Completed: <span id="completedTodos"></span></div>
+</div>
+
+<div id="loadingStateComponent">
+	<div id="loadingState" style="color: red;"></div>
+</div>
+<script src="./index.ts"></script>
